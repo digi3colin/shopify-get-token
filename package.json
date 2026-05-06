@@ -1,0 +1,15 @@
+{
+  "name": "shopify-get-token",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker to exchange a Shopify id_token for an Admin API offline access token",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "vitest run",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "vitest": "^1.5.0",
+    "wrangler": "^3.0.0"
+  }
+}
